@@ -1,0 +1,243 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Article Notes
+% LaTeX Template
+% Version 1.0 (1/10/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Vel (vel@latextemplates.com)
+% Christopher Eliot (christopher.eliot@hofstra.edu)
+% Anthony Dardis (anthony.dardis@hofstra.edu)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+12pt, % Default font size is 10pt, can alternatively be 11pt or 12pt
+a4paper, % Alternatively letterpaper for US letter
+onecolumn, % Alternatively twocolumn
+portrait % Alternatively landscape
+]{article}
+
+
+
+\input{structure.tex} % Input the file specifying the document layout and structure
+
+\usepackage{pdfpages}
+\usepackage{float}
+\usepackage{subfigure,amsmath}
+%----------------------------------------------------------------------------------------
+%	ARTICLE INFORMATION
+%----------------------------------------------------------------------------------------
+
+\articletitle{Intermediate Microeconomics} % The title of the article
+\articlecitation{\cite{dubner1999assessing}} % The BibTeX citation key from your bibliography
+
+\datenotesstarted{April 30, 2017} % The date when these notes were first made
+\docdate{\datenotesstarted; rev. \today} % The date when the notes were lasted updated (automatically the current date)
+
+\docauthor{Chen} % Your name
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\textbf{\LARGE{\centerline{Notes on Intermediate Microeconomics\quad}}}
+\\ 
+\textbf{\Large{\centerline{- A Modern Approach (Hal R. Varian)}}}
+\pagestyle{myheadings} % Use custom headers
+\markright{\doctitle} % Place the article information into the header
+
+%----------------------------------------------------------------------------------------
+%	PRINT ARTICLE INFORMATION
+%----------------------------------------------------------------------------------------
+
+\thispagestyle{plain} % Plain formatting on the first page
+
+\printtitle % Print the title
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE NOTES
+%----------------------------------------------------------------------------------------
+
+\section*{Introduction} % Unnumbered section
+
+The article gives a summary of several important types of goods which have typical utility functions.
+
+%------------------------------------------------
+
+\section{Perfect Substitudes} % Numbered section
+\begin{itemize}
+\item Utility function:
+	\[
+	u(x_1,x_2)=ax_1+bx_2.\;(x_1\ge0,x_2\ge 0)
+	\]
+\begin{figure}[H]
+	\centering
+	\subfigure[Utility function]{
+		\label{Fig.sub.1}
+		\includegraphics[width=0.55\textwidth]{perfect.pdf}}
+	\subfigure[Indifference curve]{
+		\label{Fig.sub.2}
+		\includegraphics[width=0.35\textwidth]{indifference.pdf}}
+	\caption{Utility function $u(x_1,x_2)=x_1+x_2\;(x_1\ge0,x_2\ge 0)$}
+	\label{Fig.lable}
+\end{figure}	
+
+
+\item Maximum with budget constraint:
+    
+    \[
+    \max_{x_1,x_2} u(x_1,x_2)=\max_{x_1,x_2}ax_1+bx_2
+    \]
+    \[
+    \text{s.t.}\;p_1x_1+p_2x_2=m,x_1\ge0,x_2\ge 0
+    \]
+    \begin{enumerate}
+    \item If $\dfrac{p_1}{a}<\dfrac{p_2}{b}$,
+    \[
+    u_{\max}=u\left(\frac{m}{p_1},0\right)=\frac{am}{p_1}.
+    \]
+    \item If $\dfrac{p_1}{a}=\dfrac{p_2}{b}$, for $t\in\left[0,\dfrac{m}{p_1}\right]$
+    \[
+    u_{\max}=u\left(t,\frac{m-p_1t}{p_2}\right)=\frac{am}{p_1}=\frac{bm}{p_2}.
+    \]
+    \item If $\dfrac{p_1}{a}>\dfrac{p_2}{b}$,
+    \[
+    u_{\max}=u\left(0,\frac{m}{p_2}\right)=\frac{bm}{p_2}.
+    \]
+    \end{enumerate}
+
+\begin{figure}[H]
+	\centering
+	\subfigure[Utility function]{
+		\label{Fig.sub.1}
+		\includegraphics[width=0.6\textwidth]{perfectC.pdf}}
+	\subfigure[Indifference curve]{
+		\label{Fig.sub.2}
+		\includegraphics[width=0.3\textwidth]{indifferenceC.pdf}}
+	\caption{$u(x_1,x_2)=x_1+x_2$ s.t. $3x_1+2x_2\le 6$}
+	\label{Fig.lable}
+\end{figure}
+
+
+
+\item Demand function:
+
+\begin{equation*}
+x_1=\begin{cases}
+\dfrac{m}{p_1}&\text{if}\;\,\dfrac{p_1}{a}<\dfrac{p_2}{b},\\
+\text{any value between}\;\,0\;\, \text{and}\;\, \dfrac{m}{p_1}&\text{if}\;\, \dfrac{p_1}{a}=\dfrac{p_2}{b},\\
+0&\text{if}\;\,\dfrac{p_1}{a}>\dfrac{p_2}{b}.
+\end{cases}
+\end{equation*}
+   
+
+\end{itemize}
+
+
+
+
+\section{Perfect Complements}
+
+
+\begin{itemize}
+	\item Utility function:
+	\[
+	u(x_1,x_2)=\min\{ax_1,bx_2\}.\;(x_1\ge0,x_2\ge 0)
+	\]
+	\begin{figure}[H]
+		\centering
+		\subfigure[Utility function]{
+			\label{Fig.sub.1}
+			\includegraphics[width=0.55\textwidth]{PC.pdf}}
+		\subfigure[Indifference curve]{
+			\label{Fig.sub.2}
+			\includegraphics[width=0.35\textwidth]{PCI.pdf}}
+		\caption{Utility function $u(x_1,x_2)=\min\{x_1,x_2\}$}
+		\label{Fig.lable}
+	\end{figure}	
+	
+	
+	\item Maximum with budget constraint:
+	
+	\[
+	\max_{x_1,x_2} u(x_1,x_2)=\max_{x_1,x_2}\min\{ax_1,bx_2\}
+	\]
+	\[
+	\text{s.t.}\;p_1x_1+p_2x_2=m,x_1\ge0,x_2\ge 0.
+	\]
+
+	\[
+	u_{\max}=u\left(\frac{bm}{bp_1+ap_2}\;,\;\frac{am}{bp_1+ap_2}\right)=\frac{abm}{bp_1+ap_2}
+	\]
+	\begin{figure}[H]
+		\centering
+		\subfigure[Utility function]{
+			\label{Fig.sub.1}
+			\includegraphics[width=0.6\textwidth]{perfectC.pdf}}
+		\subfigure[Indifference curve]{
+			\label{Fig.sub.2}
+			\includegraphics[width=0.3\textwidth]{indifferenceC.pdf}}
+		\caption{$u(x_1,x_2)=\min\{x_1,x_2\}$ s.t. $3x_1+2x_2\le 6$}
+		\label{Fig.lable}
+	\end{figure}
+	
+	
+	
+	\item Demand function:
+	\[
+	x_1=\frac{bm}{bp_1+ap_2}
+	\]
+	\[
+	x_2=\frac{am}{bp_1+ap_2}
+	\]
+	
+\end{itemize}
+
+
+
+
+
+\section{Cobb-Douglas Preference}
+
+\begin{itemize}
+	\item Utility function:
+	\[
+	u(x_1,x_2)=x_1^cx_2^d.\;(x_1\ge0,x_2\ge 0)
+	\]
+	
+	\item Maximum with budget constraint:
+	\[
+	\max_{x_1,x_2} u(x_1,x_2)=\max_{x_1,x_2}x_1^cx_2^d
+	\]
+	\[
+	\text{s.t.}\;p_1x_1+p_2x_2=m.
+	\]
+	
+	\[
+	u_{\max}=u\left(\frac{c}{c+d}\cdot\frac{m}{p_1}\;,\;\frac{d}{c+d}\cdot\frac{m}{p_2}\right)=\left(\frac{m}{c+d}\right)^{c+d}\frac{c^cd^d}{p_1^c\,p_2^d}
+	\]
+	\item Demand function:
+\end{itemize}
+
+
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+%\renewcommand{\refname}{Reference} % Change the default bibliography title
+
+%\bibliography{sample} % Input your bibliography file
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
