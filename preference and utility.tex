@@ -98,20 +98,20 @@ The article gives a summary of several important types of goods which have typic
     \max_{x_1,x_2} u(x_1,x_2)=\max_{x_1,x_2}ax_1+bx_2
     \]
     \[
-    \text{s.t.}\;p_1x_1+p_2x_2=m,x_1\ge0,x_2\ge 0
+    \text{s.t.}\;p_1x_1+p_2x_2=w,x_1\ge0,x_2\ge 0
     \]
     \begin{enumerate}
     \item If $\dfrac{p_1}{a}<\dfrac{p_2}{b}$,
     \[
-    u_{\max}=u\left(\frac{m}{p_1},0\right)=\frac{am}{p_1}.
+    u_{\max}=u\left(\frac{w}{p_1},0\right)=\frac{aw}{p_1}.
     \]
-    \item If $\dfrac{p_1}{a}=\dfrac{p_2}{b}$, for $t\in\left[0,\dfrac{m}{p_1}\right]$
+    \item If $\dfrac{p_1}{a}=\dfrac{p_2}{b}$, for $t\in\left[0,\dfrac{w}{p_1}\right]$
     \[
-    u_{\max}=u\left(t,\frac{m-p_1t}{p_2}\right)=\frac{am}{p_1}=\frac{bm}{p_2}.
+    u_{\max}=u\left(t,\frac{w-p_1t}{p_2}\right)=\frac{aw}{p_1}=\frac{bw}{p_2}.
     \]
     \item If $\dfrac{p_1}{a}>\dfrac{p_2}{b}$,
     \[
-    u_{\max}=u\left(0,\frac{m}{p_2}\right)=\frac{bm}{p_2}.
+    u_{\max}=u\left(0,\frac{w}{p_2}\right)=\frac{bw}{p_2}.
     \]
     \end{enumerate}
 
@@ -133,8 +133,8 @@ The article gives a summary of several important types of goods which have typic
 
 \begin{equation*}
 x_1=\begin{cases}
-\dfrac{m}{p_1}&\text{if}\;\,\dfrac{p_1}{a}<\dfrac{p_2}{b},\\
-\text{any value between}\;\,0\;\, \text{and}\;\, \dfrac{m}{p_1}&\text{if}\;\, \dfrac{p_1}{a}=\dfrac{p_2}{b},\\
+\dfrac{w}{p_1}&\text{if}\;\,\dfrac{p_1}{a}<\dfrac{p_2}{b},\\
+\text{any value between}\;\,0\;\, \text{and}\;\, \dfrac{w}{p_1}&\text{if}\;\, \dfrac{p_1}{a}=\dfrac{p_2}{b},\\
 0&\text{if}\;\,\dfrac{p_1}{a}>\dfrac{p_2}{b}.
 \end{cases}
 \end{equation*}
@@ -172,11 +172,11 @@ x_1=\begin{cases}
 	\max_{x_1,x_2} u(x_1,x_2)=\max_{x_1,x_2}\min\{ax_1,bx_2\}
 	\]
 	\[
-	\text{s.t.}\;p_1x_1+p_2x_2=m,x_1\ge0,x_2\ge 0.
+	\text{s.t.}\;p_1x_1+p_2x_2=w,x_1\ge0,x_2\ge 0.
 	\]
 
 	\[
-	u_{\max}=u\left(\frac{bm}{bp_1+ap_2}\;,\;\frac{am}{bp_1+ap_2}\right)=\frac{abm}{bp_1+ap_2}
+	u_{\max}=u\left(\frac{bw}{bp_1+ap_2}\;,\;\frac{aw}{bp_1+ap_2}\right)=\frac{abw}{bp_1+ap_2}
 	\]
 	\begin{figure}[H]
 		\centering
@@ -194,10 +194,10 @@ x_1=\begin{cases}
 	
 	\item Demand function:
 	\[
-	x_1=\frac{bm}{bp_1+ap_2}
+	x_1=\frac{bw}{bp_1+ap_2},
 	\]
 	\[
-	x_2=\frac{am}{bp_1+ap_2}
+	x_2=\frac{aw}{bp_1+ap_2}.
 	\]
 	
 \end{itemize}
@@ -219,13 +219,20 @@ x_1=\begin{cases}
 	\max_{x_1,x_2} u(x_1,x_2)=\max_{x_1,x_2}x_1^cx_2^d
 	\]
 	\[
-	\text{s.t.}\;p_1x_1+p_2x_2=m.
+	\text{s.t.}\;p_1x_1+p_2x_2=w.
 	\]
 	
 	\[
-	u_{\max}=u\left(\frac{c}{c+d}\cdot\frac{m}{p_1}\;,\;\frac{d}{c+d}\cdot\frac{m}{p_2}\right)=\left(\frac{m}{c+d}\right)^{c+d}\frac{c^cd^d}{p_1^c\,p_2^d}
+	u_{\max}=u\left(\frac{c}{c+d}\cdot\frac{w}{p_1}\;,\;\frac{d}{c+d}\cdot\frac{w}{p_2}\right)=\left(\frac{w}{c+d}\right)^{c+d}\frac{c^cd^d}{p_1^c\,p_2^d}.
 	\]
 	\item Demand function:
+	\[
+	x_1=\frac{c}{c+d}\cdot\frac{w}{p_1},
+	\]
+	\[
+	x_2=\frac{d}{c+d}\cdot\frac{w}{p_2}.
+	\]
+	
 \end{itemize}
 
 
