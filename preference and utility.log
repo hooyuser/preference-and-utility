@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.3.25)  3 JAN 2018 21:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.3.25)  3 JAN 2018 21:45
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -455,6 +455,21 @@ LaTeX Warning: Label `sub@Fig.sub.2' multiply defined.
 
 LaTeX Warning: Label `Fig.lable' multiply defined.
 
+
+LaTeX Warning: Label `Fig.sub.1' multiply defined.
+
+
+LaTeX Warning: Label `sub@Fig.sub.1' multiply defined.
+
+
+LaTeX Warning: Label `Fig.sub.2' multiply defined.
+
+
+LaTeX Warning: Label `sub@Fig.sub.2' multiply defined.
+
+
+LaTeX Warning: Label `Fig.lable' multiply defined.
+
 )
 \openout1 = `"preference and utility.aux"'.
 
@@ -710,22 +725,27 @@ h page group included in a single page
 Package natbib Warning: Citation `dubner1999assessing' on page 5 undefined on i
 nput line 272.
 
-[5]
-File: PC.pdf Graphic file (type pdf)
- <use PC.pdf>
-Package pdftex.def Info: PC.pdf used on input line 293.
-(pdftex.def)             Requested size: 249.13371pt x 284.42715pt.
- <f.pdf, id=69, 361.35pt x 368.37625pt>
-File: f.pdf Graphic file (type pdf)
- <use f.pdf>
-Package pdftex.def Info: f.pdf used on input line 296.
+[5] <f1.pdf, id=69, 361.35pt x 416.55624pt>
+File: f1.pdf Graphic file (type pdf)
+ <use f1.pdf>
+Package pdftex.def Info: f1.pdf used on input line 293.
+(pdftex.def)             Requested size: 249.13371pt x 287.1953pt.
+
+<f2.pdf, id=70, 361.35pt x 368.37625pt>
+File: f2.pdf Graphic file (type pdf)
+ <use f2.pdf>
+Package pdftex.def Info: f2.pdf used on input line 296.
 (pdftex.def)             Requested size: 158.54152pt x 161.62512pt.
 
 
 Package natbib Warning: Citation `dubner1999assessing' on page 6 undefined on i
 nput line 320.
 
-[6 <./f.pdf>]
+[6 <./f1.pdf> <./f2.pdf
+
+pdfTeX warning: pdflatex.exe (file ./f2.pdf): PDF inclusion: multiple pdfs with
+ page group included in a single page
+>]
 
 Package natbib Warning: There were undefined citations.
 
@@ -739,10 +759,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6889 strings out of 493013
- 94733 string characters out of 6136993
+ 6894 strings out of 493013
+ 94787 string characters out of 6136993
  173892 words of memory out of 5000000
- 10250 multiletter control sequences out of 15000+600000
+ 10254 multiletter control sequences out of 15000+600000
  65135 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,10n,39p,904b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -758,10 +778,10 @@ mr12.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c
 :/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2
 016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2016/texmf
 -dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "preference and utility.pdf" (7 pages, 26805857 bytes).
+Output written on "preference and utility.pdf" (7 pages, 10413923 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
+ 128 PDF objects out of 1000 (max. 8388607)
+ 87 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
