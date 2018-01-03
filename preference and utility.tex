@@ -33,7 +33,8 @@ portrait % Alternatively landscape
 
 \usepackage{pdfpages}
 \usepackage{float}
-\usepackage{subfigure,amsmath}
+\usepackage{subfigure,amsmath,amssymb}
+\usepackage{indentfirst}
 %----------------------------------------------------------------------------------------
 %	ARTICLE INFORMATION
 %----------------------------------------------------------------------------------------
@@ -129,16 +130,47 @@ The article gives a summary of several important types of goods which have typic
 
 
 
-\item Demand function:
+\item Walras Demand function:
 
 \begin{equation*}
-x_1=\begin{cases}
-\dfrac{w}{p_1}&\text{if}\;\,\dfrac{p_1}{a}<\dfrac{p_2}{b},\\
-\text{any value between}\;\,0\;\, \text{and}\;\, \dfrac{w}{p_1}&\text{if}\;\, \dfrac{p_1}{a}=\dfrac{p_2}{b},\\
-0&\text{if}\;\,\dfrac{p_1}{a}>\dfrac{p_2}{b}.
+x(p_1,p_2,w)=\begin{cases}
+\left(\dfrac{w}{p_1},0\right)&\text{if}\;\,\dfrac{p_1}{a}<\dfrac{p_2}{b},\\
+\{(x_1,x_2)\in\mathbb{R}^2_+|p_1x_1+p_2x_2=w\}&\text{if}\;\, \dfrac{p_1}{a}=\dfrac{p_2}{b},\\
+\left(0,\dfrac{w}{p_2}\right)&\text{if}\;\,\dfrac{p_1}{a}>\dfrac{p_2}{b}.
 \end{cases}
 \end{equation*}
    
+
+\item Indirect Utility Function:
+
+\begin{equation*}
+v(p_1,p_2,w)=\left\{
+\begin{aligned}
+\dfrac{aw}{p_1}\qquad&\text{if}\;\,\dfrac{p_1}{a}<=\dfrac{p_2}{b},\\
+\dfrac{bw}{p_2}\qquad&\text{if}\;\,\dfrac{p_1}{a}>\dfrac{p_2}{b}.
+\end{aligned}
+\right.
+\end{equation*}
+
+\item Hicks Demand Function
+
+\begin{equation*}
+h(p_1,p_2,u)=\begin{cases}
+\left(\dfrac{w}{p_1},0\right)&\text{if}\;\,\dfrac{p_1}{a}<\dfrac{p_2}{b},\\
+\{(x_1,x_2)\in\mathbb{R}^2_+|p_1x_1+p_2x_2=w\}&\text{if}\;\, \dfrac{p_1}{a}=\dfrac{p_2}{b},\\
+\left(0,\dfrac{w}{p_2}\right)&\text{if}\;\,\dfrac{p_1}{a}>\dfrac{p_2}{b}.
+\end{cases}
+\end{equation*}
+
+\item Expenditure Function 
+
+\begin{equation*}
+e(p_1,p_2,u)=\begin{cases}
+\left(\dfrac{w}{p_1},0\right)&\text{if}\;\,\dfrac{p_1}{a}<\dfrac{p_2}{b},\\
+\{(x_1,x_2)\in\mathbb{R}^2_+|p_1x_1+p_2x_2=w\}&\text{if}\;\, \dfrac{p_1}{a}=\dfrac{p_2}{b},\\
+\left(0,\dfrac{w}{p_2}\right)&\text{if}\;\,\dfrac{p_1}{a}>\dfrac{p_2}{b}.
+\end{cases}
+\end{equation*}
 
 \end{itemize}
 
@@ -192,13 +224,21 @@ x_1=\begin{cases}
 	
 	
 	
-	\item Demand function:
-	\[
-	x_1=\frac{bw}{bp_1+ap_2},
-	\]
-	\[
-	x_2=\frac{aw}{bp_1+ap_2}.
-	\]
+
+
+\item Walras Demand function:
+
+\begin{equation*}
+x(p_1,p_2,w)=
+\left(\frac{bw}{bp_1+ap_2},\frac{aw}{bp_1+ap_2}\right)
+\end{equation*}
+
+
+\item Indirect Utility Function:
+
+\begin{equation*}
+v(p_1,p_2,w)=\frac{2abw}{bp_1+ap_2}
+\end{equation*}
 	
 \end{itemize}
 
@@ -225,15 +265,69 @@ x_1=\begin{cases}
 	\[
 	u_{\max}=u\left(\frac{c}{c+d}\cdot\frac{w}{p_1}\;,\;\frac{d}{c+d}\cdot\frac{w}{p_2}\right)=\left(\frac{w}{c+d}\right)^{c+d}\frac{c^cd^d}{p_1^c\,p_2^d}.
 	\]
-	\item Demand function:
-	\[
-	x_1=\frac{c}{c+d}\cdot\frac{w}{p_1},
-	\]
-	\[
-	x_2=\frac{d}{c+d}\cdot\frac{w}{p_2}.
-	\]
 	
+	\item Walras Demand function
+	\[
+	x(p_1,p_2,w)=\left(\frac{c}{c+d}\cdot\frac{w}{p_1},\frac{d}{c+d}\cdot\frac{w}{p_2}\right),
+	\]
+	\item Indirect Utility Function:
+	\[
+	v(p_1,p_2,w)=\frac{ac}{c+d}\cdot\frac{w}{p_1}+\frac{bd}{c+d}\cdot\frac{w}{p_2}
+	\]
+
 \end{itemize}
+
+
+\section{Quasilinear Preference}
+\begin{itemize}
+	
+\item Utility function:
+\[
+u(x_1,x_2)=x_1+\ln x_2.\;(x_1\ge0,x_2> 0)
+\]
+
+\begin{figure}[H]
+	\centering
+	\subfigure[Utility function]{
+		\label{Fig.sub.1}
+		\includegraphics[width=0.55\textwidth]{PC.pdf}}
+	\subfigure[Indifference curve]{
+		\label{Fig.sub.2}
+		\includegraphics[width=0.35\textwidth]{f.pdf}}
+	\caption{Utility function $u(x_1,x_2)=\min\{x_1,x_2\}$}
+	\label{Fig.lable}
+\end{figure}
+
+\item Maximum with budget constraint:
+\[
+\max_{x_1,x_2} u(x_1,x_2)=x_1+\ln x_2
+\]
+\[
+\text{s.t.}\;p_1x_1+p_2x_2=w.
+\]
+
+\[
+u_{\max}=u\left(\frac{c}{c+d}\cdot\frac{w}{p_1}\;,\;\frac{d}{c+d}\cdot\frac{w}{p_2}\right)=\left(\frac{w}{c+d}\right)^{c+d}\frac{c^cd^d}{p_1^c\,p_2^d}.
+\]
+	
+\item Walras Demand function
+\[
+x(p_1,p_2,w)=\left(\frac{c}{c+d}\cdot\frac{w}{p_1},\frac{d}{c+d}\cdot\frac{w}{p_2}\right),
+\]
+\item Indirect Utility Function:
+\[
+v(p_1,p_2,w)=\frac{ac}{c+d}\cdot\frac{w}{p_1}+\frac{bd}{c+d}\cdot\frac{w}{p_2}
+\]
+
+
+\end{itemize}
+
+
+
+
+
+
+
 
 
 

@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.3.25)  12 NOV 2017 20:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.3.25)  3 JAN 2018 21:36
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **"./preference and utility.tex"
 (./preference and utility.tex
@@ -382,15 +382,28 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfig@top=\skip55
 \subfig@bottom=\skip56
 )
+(c:/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(c:/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(c:/texlive/2016/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
 LaTeX Font Info:    Try loading font information for T1+XCharter-TLF on input l
-ine 51.
+ine 52.
 
 (c:/texlive/2016/texmf-dist/tex/latex/xcharter/t1xcharter-tlf.fd
 File: T1XCharter-TLF.fd 2013/10/27 (autoinst) Font definitions for T1/XCharter-
 TLF.
 )
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 51.
+(Font)              scaled to size 10.0pt on input line 52.
 
 
 LaTeX Warning: Unused global option(s):
@@ -445,33 +458,33 @@ LaTeX Warning: Label `Fig.lable' multiply defined.
 )
 \openout1 = `"preference and utility.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 51.
-LaTeX Font Info:    Try loading font information for LY1+ptm on input line 51.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 52.
+LaTeX Font Info:    Try loading font information for LY1+ptm on input line 52.
  (c:/texlive/2016/texmf-dist/tex/latex/ly1/ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 51.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 52.
 
 (c:/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    ... okay on input line 52.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 51.
+(Font)              scaled to size 12.0pt on input line 52.
 
 (c:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -579,42 +592,51 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 \c@mv@tabular=\count122
 \c@mv@boldtabular=\count123
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 52.
+(Font)              scaled to size 12.0pt on input line 53.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 20.74pt on input line 52.
+(Font)              scaled to size 20.74pt on input line 53.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 54.
+(Font)              scaled to size 17.28pt on input line 55.
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 52--57
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 53--58
 [][] 
  []
 
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 70.
+(Font)              scaled to size 17.28pt on input line 71.
 LaTeX Font Info:    Try loading font information for TS1+XCharter-TLF on input 
-line 78.
+line 79.
 (c:/texlive/2016/texmf-dist/tex/latex/xcharter/ts1xcharter-tlf.fd
 File: TS1XCharter-TLF.fd 2013/10/27 (autoinst) Font definitions for TS1/XCharte
 r-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 78.
+(Font)              scaled to size 12.0pt on input line 79.
+LaTeX Font Info:    Try loading font information for U+msa on input line 80.
 
+(c:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 80.
+
+(c:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 <perfect.pdf, id=1, 361.35pt x 412.54124pt>
 File: perfect.pdf Graphic file (type pdf)
  <use perfect.pdf>
-Package pdftex.def Info: perfect.pdf used on input line 86.
+Package pdftex.def Info: perfect.pdf used on input line 87.
 (pdftex.def)             Requested size: 249.13371pt x 284.42715pt.
 
 <indifference.pdf, id=2, 361.35pt x 368.37625pt>
 File: indifference.pdf Graphic file (type pdf)
  <use indifference.pdf>
-Package pdftex.def Info: indifference.pdf used on input line 89.
+Package pdftex.def Info: indifference.pdf used on input line 90.
 (pdftex.def)             Requested size: 158.54152pt x 161.62512pt.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 101.
+(Font)              scaled to size 8.0pt on input line 102.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 101.
+(Font)              scaled to size 6.0pt on input line 102.
 
 [1
 
@@ -626,79 +648,104 @@ pdfTeX warning: pdflatex.exe (file ./indifference.pdf): PDF inclusion: multiple
 >] <perfectC.pdf, id=28, 361.35pt x 372.39125pt>
 File: perfectC.pdf Graphic file (type pdf)
  <use perfectC.pdf>
-Package pdftex.def Info: perfectC.pdf used on input line 122.
+Package pdftex.def Info: perfectC.pdf used on input line 123.
 (pdftex.def)             Requested size: 271.7835pt x 280.08826pt.
 
 <indifferenceC.pdf, id=29, 296.10625pt x 433.62pt>
 File: indifferenceC.pdf Graphic file (type pdf)
  <use indifferenceC.pdf>
-Package pdftex.def Info: indifferenceC.pdf used on input line 125.
+Package pdftex.def Info: indifferenceC.pdf used on input line 126.
 (pdftex.def)             Requested size: 135.89174pt x 199.00446pt.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/sl' in size <12> not availabl
 e
 (Font)              Font shape `T1/XCharter-TLF/m/it' tried instead on input li
-ne 155.
+ne 153.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 155.
+(Font)              scaled to size 12.0pt on input line 153.
 
 
 Package natbib Warning: Citation `dubner1999assessing' on page 2 undefined on i
-nput line 155.
+nput line 153.
 
 [2 <./perfectC.pdf> <./indifferenceC.pdf
 
 pdfTeX warning: pdflatex.exe (file ./indifferenceC.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
->] <PC.pdf, id=46, 361.35pt x 412.54124pt>
+>] <PC.pdf, id=47, 361.35pt x 412.54124pt>
 File: PC.pdf Graphic file (type pdf)
  <use PC.pdf>
-Package pdftex.def Info: PC.pdf used on input line 160.
+Package pdftex.def Info: PC.pdf used on input line 192.
 (pdftex.def)             Requested size: 249.13371pt x 284.42715pt.
 
-<PCI.pdf, id=47, 361.35pt x 368.37625pt>
+<PCI.pdf, id=48, 361.35pt x 368.37625pt>
 File: PCI.pdf Graphic file (type pdf)
  <use PCI.pdf>
-Package pdftex.def Info: PCI.pdf used on input line 163.
+Package pdftex.def Info: PCI.pdf used on input line 195.
 (pdftex.def)             Requested size: 158.54152pt x 161.62512pt.
-File: perfectC.pdf Graphic file (type pdf)
- <use perfectC.pdf>
-Package pdftex.def Info: perfectC.pdf used on input line 185.
-(pdftex.def)             Requested size: 271.7835pt x 280.08826pt.
-File: indifferenceC.pdf Graphic file (type pdf)
-
-<use indifferenceC.pdf>
-Package pdftex.def Info: indifferenceC.pdf used on input line 188.
-(pdftex.def)             Requested size: 135.89174pt x 199.00446pt.
 
 
 Package natbib Warning: Citation `dubner1999assessing' on page 3 undefined on i
-nput line 192.
+nput line 199.
 
-[3 <./PC.pdf> <./PCI.pdf
+[3]
+File: perfectC.pdf Graphic file (type pdf)
+ <use perfectC.pdf>
+Package pdftex.def Info: perfectC.pdf used on input line 217.
+(pdftex.def)             Requested size: 271.7835pt x 280.08826pt.
+File: indifferenceC.pdf Graphic file (type pdf)
+ <use indifferenceC.pdf>
+Package pdftex.def Info: indifferenceC.pdf used on input line 220.
+(pdftex.def)             Requested size: 135.89174pt x 199.00446pt.
+
+
+Package natbib Warning: Citation `dubner1999assessing' on page 4 undefined on i
+nput line 224.
+
+[4 <./PC.pdf> <./PCI.pdf
 
 pdfTeX warning: pdflatex.exe (file ./PCI.pdf): PDF inclusion: multiple pdfs wit
 h page group included in a single page
 >]
 
+Package natbib Warning: Citation `dubner1999assessing' on page 5 undefined on i
+nput line 272.
+
+[5]
+File: PC.pdf Graphic file (type pdf)
+ <use PC.pdf>
+Package pdftex.def Info: PC.pdf used on input line 293.
+(pdftex.def)             Requested size: 249.13371pt x 284.42715pt.
+ <f.pdf, id=69, 361.35pt x 368.37625pt>
+File: f.pdf Graphic file (type pdf)
+ <use f.pdf>
+Package pdftex.def Info: f.pdf used on input line 296.
+(pdftex.def)             Requested size: 158.54152pt x 161.62512pt.
+
+
+Package natbib Warning: Citation `dubner1999assessing' on page 6 undefined on i
+nput line 320.
+
+[6 <./f.pdf>]
+
 Package natbib Warning: There were undefined citations.
 
 
-Package natbib Warning: Citation `dubner1999assessing' on page 4 undefined on i
-nput line 250.
+Package natbib Warning: Citation `dubner1999assessing' on page 7 undefined on i
+nput line 344.
 
-[4] (./preference and utility.aux)
+[7] (./preference and utility.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6595 strings out of 493013
- 91395 string characters out of 6136993
- 172206 words of memory out of 5000000
- 9977 multiletter control sequences out of 15000+600000
- 63900 words of font info for 45 fonts, out of 8000000 for 9000
+ 6889 strings out of 493013
+ 94733 string characters out of 6136993
+ 173892 words of memory out of 5000000
+ 10250 multiletter control sequences out of 15000+600000
+ 65135 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,9n,39p,904b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,10n,39p,904b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2016/texmf-dist/fonts/enc/dvips/xcharter/xch_tuu2ww.enc}{c:/texli
 ve/2016/texmf-dist/fonts/enc/dvips/xcharter/xch_jfcsri.enc}<c:/texlive/2016/tex
 mf-dist/fonts/type1/public/xcharter/XCharter-Bold.pfb><c:/texlive/2016/texmf-di
@@ -709,11 +756,12 @@ ublic/amsfonts/cm/cmmi12.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmmi8.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mr12.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c
 :/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2
-016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "preference and utility.pdf" (4 pages, 7210382 bytes).
+016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2016/texmf
+-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on "preference and utility.pdf" (7 pages, 26805857 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
+ 123 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
