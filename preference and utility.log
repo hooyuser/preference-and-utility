@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.3.25)  3 JAN 2018 21:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.3.25)  14 APR 2018 14:33
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -470,6 +470,51 @@ LaTeX Warning: Label `sub@Fig.sub.2' multiply defined.
 
 LaTeX Warning: Label `Fig.lable' multiply defined.
 
+
+LaTeX Warning: Label `Fig.sub.1' multiply defined.
+
+
+LaTeX Warning: Label `sub@Fig.sub.1' multiply defined.
+
+
+LaTeX Warning: Label `Fig.sub.2' multiply defined.
+
+
+LaTeX Warning: Label `sub@Fig.sub.2' multiply defined.
+
+
+LaTeX Warning: Label `Fig.lable' multiply defined.
+
+
+LaTeX Warning: Label `Fig.sub.1' multiply defined.
+
+
+LaTeX Warning: Label `sub@Fig.sub.1' multiply defined.
+
+
+LaTeX Warning: Label `Fig.sub.2' multiply defined.
+
+
+LaTeX Warning: Label `sub@Fig.sub.2' multiply defined.
+
+
+LaTeX Warning: Label `Fig.lable' multiply defined.
+
+
+LaTeX Warning: Label `Fig.sub.1' multiply defined.
+
+
+LaTeX Warning: Label `sub@Fig.sub.1' multiply defined.
+
+
+LaTeX Warning: Label `Fig.sub.2' multiply defined.
+
+
+LaTeX Warning: Label `sub@Fig.sub.2' multiply defined.
+
+
+LaTeX Warning: Label `Fig.lable' multiply defined.
+
 )
 \openout1 = `"preference and utility.aux"'.
 
@@ -637,39 +682,38 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 80.
 (c:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<perfect.pdf, id=1, 361.35pt x 412.54124pt>
-File: perfect.pdf Graphic file (type pdf)
- <use perfect.pdf>
-Package pdftex.def Info: perfect.pdf used on input line 87.
+<PS1.pdf, id=1, 361.35pt x 412.54124pt>
+File: PS1.pdf Graphic file (type pdf)
+ <use PS1.pdf>
+Package pdftex.def Info: PS1.pdf used on input line 87.
 (pdftex.def)             Requested size: 249.13371pt x 284.42715pt.
 
-<indifference.pdf, id=2, 361.35pt x 368.37625pt>
-File: indifference.pdf Graphic file (type pdf)
- <use indifference.pdf>
-Package pdftex.def Info: indifference.pdf used on input line 90.
+<PS2.pdf, id=2, 361.35pt x 368.37625pt>
+File: PS2.pdf Graphic file (type pdf)
+ <use PS2.pdf>
+Package pdftex.def Info: PS2.pdf used on input line 90.
 (pdftex.def)             Requested size: 158.54152pt x 161.62512pt.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
 (Font)              scaled to size 8.0pt on input line 102.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
 (Font)              scaled to size 6.0pt on input line 102.
+ [1
 
-[1
+{c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./PS1.pdf> <./P
+S2.pdf
 
-{c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./perfect.pdf> 
-<./indifference.pdf
-
-pdfTeX warning: pdflatex.exe (file ./indifference.pdf): PDF inclusion: multiple
- pdfs with page group included in a single page
->] <perfectC.pdf, id=28, 361.35pt x 372.39125pt>
-File: perfectC.pdf Graphic file (type pdf)
- <use perfectC.pdf>
-Package pdftex.def Info: perfectC.pdf used on input line 123.
+pdfTeX warning: pdflatex.exe (file ./PS2.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+>] <PS3.pdf, id=28, 361.35pt x 372.39125pt>
+File: PS3.pdf Graphic file (type pdf)
+ <use PS3.pdf>
+Package pdftex.def Info: PS3.pdf used on input line 123.
 (pdftex.def)             Requested size: 271.7835pt x 280.08826pt.
 
-<indifferenceC.pdf, id=29, 296.10625pt x 433.62pt>
-File: indifferenceC.pdf Graphic file (type pdf)
- <use indifferenceC.pdf>
-Package pdftex.def Info: indifferenceC.pdf used on input line 126.
+<PS4.pdf, id=29, 296.10625pt x 433.62pt>
+File: PS4.pdf Graphic file (type pdf)
+ <use PS4.pdf>
+Package pdftex.def Info: PS4.pdf used on input line 126.
 (pdftex.def)             Requested size: 135.89174pt x 199.00446pt.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/sl' in size <12> not availabl
 e
@@ -682,87 +726,148 @@ LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/it' will be
 Package natbib Warning: Citation `dubner1999assessing' on page 2 undefined on i
 nput line 153.
 
-[2 <./perfectC.pdf> <./indifferenceC.pdf
+[2 <./PS3.pdf> <./PS4.pdf
 
-pdfTeX warning: pdflatex.exe (file ./indifferenceC.pdf): PDF inclusion: multipl
-e pdfs with page group included in a single page
->] <PC.pdf, id=47, 361.35pt x 412.54124pt>
-File: PC.pdf Graphic file (type pdf)
- <use PC.pdf>
-Package pdftex.def Info: PC.pdf used on input line 192.
+pdfTeX warning: pdflatex.exe (file ./PS4.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+>] <PC1.pdf, id=47, 361.35pt x 412.54124pt>
+File: PC1.pdf Graphic file (type pdf)
+ <use PC1.pdf>
+Package pdftex.def Info: PC1.pdf used on input line 192.
 (pdftex.def)             Requested size: 249.13371pt x 284.42715pt.
 
-<PCI.pdf, id=48, 361.35pt x 368.37625pt>
-File: PCI.pdf Graphic file (type pdf)
- <use PCI.pdf>
-Package pdftex.def Info: PCI.pdf used on input line 195.
+<PC2.pdf, id=48, 361.35pt x 368.37625pt>
+File: PC2.pdf Graphic file (type pdf)
+ <use PC2.pdf>
+Package pdftex.def Info: PC2.pdf used on input line 195.
 (pdftex.def)             Requested size: 158.54152pt x 161.62512pt.
 
 
 Package natbib Warning: Citation `dubner1999assessing' on page 3 undefined on i
 nput line 199.
 
-[3]
-File: perfectC.pdf Graphic file (type pdf)
- <use perfectC.pdf>
-Package pdftex.def Info: perfectC.pdf used on input line 217.
-(pdftex.def)             Requested size: 271.7835pt x 280.08826pt.
-File: indifferenceC.pdf Graphic file (type pdf)
- <use indifferenceC.pdf>
-Package pdftex.def Info: indifferenceC.pdf used on input line 220.
+[3] <PC3.pdf, id=52, 361.35pt x 370.38374pt>
+File: PC3.pdf Graphic file (type pdf)
+ <use PC3.pdf>
+Package pdftex.def Info: PC3.pdf used on input line 217.
+(pdftex.def)             Requested size: 271.7835pt x 278.57834pt.
+
+<PC4.pdf, id=53, 296.10625pt x 433.62pt>
+File: PC4.pdf Graphic file (type pdf)
+ <use PC4.pdf>
+Package pdftex.def Info: PC4.pdf used on input line 220.
 (pdftex.def)             Requested size: 135.89174pt x 199.00446pt.
 
 
 Package natbib Warning: Citation `dubner1999assessing' on page 4 undefined on i
 nput line 224.
 
-[4 <./PC.pdf> <./PCI.pdf
+[4 <./PC1.pdf> <./PC2.pdf
 
-pdfTeX warning: pdflatex.exe (file ./PCI.pdf): PDF inclusion: multiple pdfs wit
+pdfTeX warning: pdflatex.exe (file ./PC2.pdf): PDF inclusion: multiple pdfs wit
 h page group included in a single page
->]
+>] <CD1.pdf, id=68, 361.35pt x 412.54124pt>
+File: CD1.pdf Graphic file (type pdf)
+ <use CD1.pdf>
+Package pdftex.def Info: CD1.pdf used on input line 261.
+(pdftex.def)             Requested size: 249.13371pt x 284.42715pt.
+
+<CD2.pdf, id=69, 361.35pt x 361.35pt>
+File: CD2.pdf Graphic file (type pdf)
+ <use CD2.pdf>
+Package pdftex.def Info: CD2.pdf used on input line 264.
+(pdftex.def)             Requested size: 158.54152pt x 158.54236pt.
+
 
 Package natbib Warning: Citation `dubner1999assessing' on page 5 undefined on i
-nput line 272.
+nput line 268.
 
-[5] <f1.pdf, id=69, 361.35pt x 416.55624pt>
-File: f1.pdf Graphic file (type pdf)
- <use f1.pdf>
-Package pdftex.def Info: f1.pdf used on input line 293.
-(pdftex.def)             Requested size: 249.13371pt x 287.1953pt.
+[5 <./PC3.pdf> <./PC4.pdf
 
-<f2.pdf, id=70, 361.35pt x 368.37625pt>
-File: f2.pdf Graphic file (type pdf)
- <use f2.pdf>
-Package pdftex.def Info: f2.pdf used on input line 296.
-(pdftex.def)             Requested size: 158.54152pt x 161.62512pt.
+pdfTeX warning: pdflatex.exe (file ./PC4.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+>] <CD3.pdf, id=84, 952.55875pt x 778.91pt>
+File: CD3.pdf Graphic file (type pdf)
+ <use CD3.pdf>
+Package pdftex.def Info: CD3.pdf used on input line 285.
+(pdftex.def)             Requested size: 271.7835pt x 222.24124pt.
+
+<CD4.pdf, id=85, 296.10625pt x 433.62pt>
+File: CD4.pdf Graphic file (type pdf)
+ <use CD4.pdf>
+Package pdftex.def Info: CD4.pdf used on input line 288.
+(pdftex.def)             Requested size: 135.89174pt x 199.00446pt.
 
 
 Package natbib Warning: Citation `dubner1999assessing' on page 6 undefined on i
-nput line 320.
+nput line 292.
 
-[6 <./f1.pdf> <./f2.pdf
+[6 <./CD1.pdf> <./CD2.pdf
 
-pdfTeX warning: pdflatex.exe (file ./f2.pdf): PDF inclusion: multiple pdfs with
- page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./CD2.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+>] <QL1.pdf, id=100, 361.35pt x 416.55624pt>
+File: QL1.pdf Graphic file (type pdf)
+ <use QL1.pdf>
+Package pdftex.def Info: QL1.pdf used on input line 317.
+(pdftex.def)             Requested size: 249.13371pt x 287.1953pt.
+
+<QL2.pdf, id=101, 361.35pt x 368.37625pt>
+File: QL2.pdf Graphic file (type pdf)
+ <use QL2.pdf>
+Package pdftex.def Info: QL2.pdf used on input line 320.
+(pdftex.def)             Requested size: 158.54152pt x 161.62512pt.
+
+
+Package natbib Warning: Citation `dubner1999assessing' on page 7 undefined on i
+nput line 324.
+
+[7 <./CD3.pdf> <./CD4.pdf
+
+pdfTeX warning: pdflatex.exe (file ./CD4.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+>] <QL3.pdf, id=117, 361.35pt x 372.39125pt>
+File: QL3.pdf Graphic file (type pdf)
+ <use QL3.pdf>
+Package pdftex.def Info: QL3.pdf used on input line 337.
+(pdftex.def)             Requested size: 249.13371pt x 256.74567pt.
+
+<QL4.pdf, id=118, 296.10625pt x 433.62pt>
+File: QL4.pdf Graphic file (type pdf)
+ <use QL4.pdf>
+Package pdftex.def Info: QL4.pdf used on input line 340.
+(pdftex.def)             Requested size: 158.54152pt x 232.17297pt.
+
+
+Package natbib Warning: Citation `dubner1999assessing' on page 8 undefined on i
+nput line 344.
+
+[8 <./QL1.pdf> <./QL2.pdf
+
+pdfTeX warning: pdflatex.exe (file ./QL2.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
 >]
 
 Package natbib Warning: There were undefined citations.
 
 
-Package natbib Warning: Citation `dubner1999assessing' on page 7 undefined on i
-nput line 344.
+Package natbib Warning: Citation `dubner1999assessing' on page 9 undefined on i
+nput line 386.
 
-[7] (./preference and utility.aux)
+[9 <./QL3.pdf> <./QL4.pdf
+
+pdfTeX warning: pdflatex.exe (file ./QL4.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+>] (./preference and utility.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6894 strings out of 493013
- 94787 string characters out of 6136993
+ 6934 strings out of 493013
+ 95094 string characters out of 6136993
  173892 words of memory out of 5000000
- 10254 multiletter control sequences out of 15000+600000
+ 10286 multiletter control sequences out of 15000+600000
  65135 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,10n,39p,904b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -778,10 +883,10 @@ mr12.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c
 :/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2
 016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2016/texmf
 -dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "preference and utility.pdf" (7 pages, 10413923 bytes).
+Output written on "preference and utility.pdf" (9 pages, 18501193 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
- 87 compressed objects within 1 object stream
+ 187 PDF objects out of 1000 (max. 8388607)
+ 123 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
